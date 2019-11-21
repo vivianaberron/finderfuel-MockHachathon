@@ -1,29 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Otherview from './views/otherview';
+import Landing from './views/Landing'
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          FINDER FUEL
-        </p>
-        <p>
-          FINDER FUEL
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return(
+      <div>
+        <Router>
+         <Route exact path='/' component={Landing} />
+         <Switch>
+
+         </Switch>
+          <Route exact path='/otherview' component={Otherview} />
+
+
+        </Router>
+      </div>
+    )
+  }
 }
 
 export default App;
