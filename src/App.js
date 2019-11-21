@@ -10,6 +10,9 @@ function App() {
         <p>
           FINDER FUEL
         </p>
+        <p>
+          FINDER FUEL
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
