@@ -1,0 +1,31 @@
+.navbar-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.mechanical{
+  background-color: darkolivegreen;
+  height: 5rem;
+  width: 6rem;
+  float: left;
+}
+
+.foryou{
+  background-color: yellow;
+  height: 5rem;
+  width: 6rem;
+  margin-left: 6rem;
+}
+
+.routes{
+  background-color: black;
+  height: 5rem;
+  width: 6rem;
+  margin-left: 12rem;
+}
+
+.mechanical,
+.foryou,
+.routes{
+  position: absolute;
+}
