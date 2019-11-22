@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import HomeContainer from './containers/HomeContainer';
+import NameList from './components/List';
+// const corsproxy = 'https://cors-anywhere.herokuapp.com/';
+// const url = 'https://api-gas-stations-mex.herokuapp.com/gasstations';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          FINDER FUEL
-        </p>
-        <p>
-          FINDER FUEL
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <NameList/>
       </header>
     </div>
   );
