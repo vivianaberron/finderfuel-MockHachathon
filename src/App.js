@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Otherview from './views/otherview';
-
 import LandingView from './views/LandingView';
+import Welcome from './views/WelcomeView';
+import PemexView from './views/PemexView';
 
 import './App.css';
 
@@ -12,7 +13,9 @@ class App extends Component {
       <div>
         <Router>
            <Switch>
-              <Route exact path='/' component={LandingView} />
+              <Route exact path='/' component={Welcome} />
+              <Route exact path='/landing' component={LandingView} />
+              <Route exact path='/pemex' component={PemexView} />
               <Route exact path='/otherview' component={Otherview} />
            </Switch>
         </Router>
@@ -22,3 +25,4 @@ class App extends Component {
 }
 
 export default App;
+

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './style.css';
 
 import { FaUserCircle } from "react-icons/fa";
@@ -12,7 +13,9 @@ const Header = () => {
       <FaUserCircle  className='icon-user'/>
       <p>Gasolinas</p>
       <MdSearch  className='magnifying-glass'/>
+      <Link to={'/pemex'}>
       <MdViewList />
+      </Link>
     </div>
   )
 }
