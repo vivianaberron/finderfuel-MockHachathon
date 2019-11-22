@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Otherview from './views/otherview';
-import Landing from './views/Landing';
+import Landing from './views/LandingView';
 import Welcome from './views/Welcome';
 
 import './App.css';
