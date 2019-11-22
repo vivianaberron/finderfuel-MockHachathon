@@ -14,10 +14,12 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
      <Link to={'/otherview'}>
+       <Link to={'/publicity'}>
        <div className='mechanical'> <MdInfoOutline/></div>
+       </Link>
        <div className='foryou'><MdFavoriteBorder /></div>
        <div className='routes'><MdHelpOutline/></div>
-       <div className='filter'><FiFilter/></div>
+         <div className='filter'><FiFilter/></div>
 
      </Link>
     </div>

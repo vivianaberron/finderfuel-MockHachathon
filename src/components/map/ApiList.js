@@ -2,9 +2,22 @@ import React from 'react';
 import axios from 'axios';
 
 export default class NameList extends React.Component {
+  constructor(props) {
+    super(props);
+    
     state = {
         data: []
     }
+      const { lat, lng } = this.props.initialCenter;
+      this.state = {
+        currentLocation: {
+          lat: lat,
+          lng: lng
+        }
+      };
+    }
+
+
     componentDidMount(){
        axios.get('https://cors-anywhere.herokuapp.com/https://api-gas-stations-mex.herokuapp.com/gasstations')
            .then(response => {

@@ -1,5 +1,6 @@
 import React from 'react';
 import imgcircular from '../../img/img-circular.png';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 class About extends React.Component {
@@ -13,7 +14,9 @@ class About extends React.Component {
                     <p className="parrafos-text">No importa que sea para ti una
                     <br/>emergencia, localiza en<br/>cualquier momento una grúa
                     <br/>cercana, refacciones para auto<br/>o comida.</p>
-                    <button className="buttons">SIGUIENTE</button>
+                    <Link to={'/landing'}>
+                      <button className="buttons">SIGUIENTE</button>
+                    </Link>
 
             </div>
 

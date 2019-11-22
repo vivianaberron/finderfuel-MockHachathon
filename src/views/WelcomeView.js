@@ -15,7 +15,7 @@ class Welcome extends React.Component {
                 <div className="square">
                     <p className="parrafos-text">Nuestro servicio esta basado en <br/>tu ubicación actual,<br/>recomendamos activar tu GPS.</p>
                     <button className="buttons">ACTIVAR GPS</button>
-                    <Link to={'/landing'}>
+                    <Link to={'/about'}>
                          <button className="buttons" id="button-of">CONTINUAR</button>
                     </Link>
                 </div>
