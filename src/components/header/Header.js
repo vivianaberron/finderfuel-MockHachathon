@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className='header'>
       <FaUserCircle  className='icon-user'/>
-      <p>Gasolineras</p>
+      <p>Gasol</p>
       <MdSearch  className='magnifying-glass'/>
       <MdViewList />
     </div>
