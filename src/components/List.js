@@ -18,7 +18,7 @@
         render(){
             return(
                 <ul>
-                    {this.state.data.map(data => <li>{data.name} </li>)}
+                    {this.state.data.map(data => <li>{data.location.x} </li>)}
                 </ul>
             )
         }
