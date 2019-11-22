@@ -1,10 +1,13 @@
 import React from 'react'
-import './otherview.css';
+// import Sidebar from '../components/sidebar/Sidebar';
 
-export const Otherview = () => {
+const Otherview = () => {
   return (
     <div className='other'>
-      this is otherview
+      {/* <Sidebar /> */}
+      this is otherview <br />
+      this is otherview <br />
+      this is otherview <br />
     </div>
   )
 }
