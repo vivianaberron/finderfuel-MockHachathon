@@ -11,15 +11,11 @@ class App extends Component {
     return(
       <div>
         <Router>
-          <Route exact path='/welcome' component={Welcome}/>
-
-         <Route exact path='/' component={Landing} />
-         <Switch>
-
-         </Switch>
-          <Route exact path='/otherview' component={Otherview} />
-
-
+           <Switch>
+              <Route exact path='/' component={Landing} />
+              <Route exact path='/welcome' component={Welcome} />
+              <Route exact path='/otherview' component={Otherview} />
+           </Switch>
         </Router>
       </div>
     )
