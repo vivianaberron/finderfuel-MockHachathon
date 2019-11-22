@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default class NameList extends React.Component {
     state = {
-        data: [],
+        locationsData: [],
     };
 
     componentDidMount(){
@@ -18,7 +18,7 @@ export default class NameList extends React.Component {
        render(){
            return(
                <ul>
-                   {this.state.data.map(info => <li key={info.index}>{info.location.x} </li>)}
+                   {this.state.locationsData.map(info => <li key={info.index}>{info.location.x} </li>)}
                </ul>
            )
        }
