@@ -11,6 +11,7 @@ export const Landing = () => {
       <Link to='/otherview'>
            TogetherClick 
       </Link>
+    
     </div>
   )
 }
