@@ -1,10 +1,13 @@
-body{
+.w-about{
     background-image: url(../../img/Inicio.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
 }
 .parrafos-bold{
     color: #ffffff;

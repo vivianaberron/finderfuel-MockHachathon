@@ -5,6 +5,7 @@ import './styles.css';
 class About extends React.Component {
     render() {
         return (
+            <div className="w-about">
             <div className="square-gde">
                 <div className="wallpaper"></div>
                     <img className="img-circular" src={imgcircular} alt="img-circular" />
@@ -13,6 +14,8 @@ class About extends React.Component {
                     <br/>emergencia, localiza en<br/>cualquier momento una grúa
                     <br/>cercana, refacciones para auto<br/>o comida.</p>
                     <button className="buttons">SIGUIENTE</button>
+
+            </div>
 
             </div>
         );
